@@ -1,6 +1,6 @@
 'use strict';
 
-var gutil = require('gulp-util');
+//var gutil = require('gulp-util');
 
 var AWS = require('aws-sdk');
 var through = require('through2');
@@ -25,11 +25,11 @@ module.exports = function(invalidationBatch, options) {
       InvalidationBatch: invalidationBatch
     }, function(err, data) {
       if (err) {
-        throw new gutil.PluginError('gulp-invalidate-cloudfront', 'Could not invalidate cloudfront: ' + err);
+        //throw new gutil.PluginError('gulp-invalidate-cloudfront', 'Could not invalidate cloudfront: ' + err);
         return cb(false);
       }
 
-      gutil.log('Cloudfront invalidation created with id: ' + data.Invalidation.Id);
+      //gutil.log('Cloudfront invalidation created with id: ' + data.Invalidation.Id);
       cb();
     });
   }
