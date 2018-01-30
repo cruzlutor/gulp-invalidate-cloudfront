@@ -1,29 +1,25 @@
 {
   "name": "gulp-invalidate-cloudfront",
-  "version": "0.1.1",
-  "description": "A gulp plugin to invalidate files in a cloudfront distribution",
+  "version": "1.0.0",
+  "description": "> Invalidate cloudfront files",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "^2.188.0",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "jshint **.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/solarnz/gulp-invalidate-cloudfront.git"
+    "url": "git+https://github.com/cruzlutor/gulp-invalidate-cloudfront.git"
   },
-  "keywords": [
-    "gulp",
-    "cloudfront"
-  ],
-  "author": "Chris Trotman <chris@trotman.io>",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/solarnz/gulp-invalidate-cloudfront/issues"
+    "url": "https://github.com/cruzlutor/gulp-invalidate-cloudfront/issues"
   },
-  "homepage": "https://github.com/solarnz/gulp-invalidate-cloudfront",
-  "dependencies": {
-    // "aws-sdk": "^2.188.0",
-    // "gulp-util": "^3.0.8",
-    // "through2": "^2.0.3"
-  }
+  "homepage": "https://github.com/cruzlutor/gulp-invalidate-cloudfront#readme"
 }
