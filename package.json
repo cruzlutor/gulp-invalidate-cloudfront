@@ -22,10 +22,8 @@
   },
   "homepage": "https://github.com/solarnz/gulp-invalidate-cloudfront",
   "dependencies": {
-    "aws-sdk": "^2.1.18",
-    "through2": "^0.6.3"
-  },
-  "devDependencies": {
-    "jshint": "^2.6.3"
+    "aws-sdk": "^2.188.0",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
   }
 }
