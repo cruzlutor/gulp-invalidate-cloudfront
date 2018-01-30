@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "aws-sdk": "^2.188.0"
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
